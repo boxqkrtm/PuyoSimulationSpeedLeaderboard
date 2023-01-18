@@ -11,7 +11,7 @@ https://github.com/TukamotoRyuzo (close)
 
 2nd partial search + dfs
 2.7us
-https://github.com/Riemann-rbrb (close)
+https://github.com/Riemann-rbrb/PuyoBenchmarkCPP/tree/7c0b711da30b3d0b8bed6c5114f62e8a8950e9ff (open)
 
 3rd bitboard PEXT
 3us
