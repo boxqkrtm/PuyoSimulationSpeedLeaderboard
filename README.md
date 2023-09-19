@@ -9,13 +9,13 @@ pop [kenny 19rensa puyo field](https://puyonexus.com/wiki/Miscellaneous_Chains#K
 0.8us
 https://github.com/TukamotoRyuzo (close)
 
-2nd partial search + dfs
+2rd bitboard PEXT
+1.0us
+https://github.com/citrus610/puyo-core/tree/ea1872d27f609924c16094bd04c6f5b123f469d4 (open, need to edit benchmark code) 
+
+3nd partial search + dfs
 2.7us
 https://github.com/Riemann-rbrb/PuyoBenchmarkCPP/tree/7c0b711da30b3d0b8bed6c5114f62e8a8950e9ff (open)
-
-3rd bitboard PEXT
-3us
-https://github.com/citrus610/puyo-core/tree/ea1872d27f609924c16094bd04c6f5b123f469d4 (open)
 
 4th partial search + dfs
 14.8us
