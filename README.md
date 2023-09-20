@@ -1,27 +1,13 @@
 # Puyo Simulation Speed Leaderboard
-for the fastest 19chain calculation
+- pop [kenny 19rensa puyo field](https://puyonexus.com/wiki/Miscellaneous_Chains#Kenny_Formula)
+- unit = simulate times per frame (in 60fps game = 16ms) for realtime ai
 
-pop [kenny 19rensa puyo field](https://puyonexus.com/wiki/Miscellaneous_Chains#Kenny_Formula)
-(unit us, to the first decimal place, any personal cpu 1thread)
+# LeaderBoard (tested on intel i7-1165G7)<br>
+1. bitboard PEXT by citrus610 ([github](https://github.com/boxqkrtm/puyo-core-benchmark/tree/530ff1dd9ffe5572bad616ea5450ed3b67432064))<br>
+14828.544949times/16ms<br>
+2. partial search + dfs by Riemann-rbrb ([github](https://github.com/Riemann-rbrb/PuyoBenchmarkCPP/tree/7c0b711da30b3d0b8bed6c5114f62e8a8950e9ff))<br>
+6607.744times/16ms<br>
 
-```
-1st SSE3 SIMD
-0.8us
-https://github.com/TukamotoRyuzo (close)
-
-1st bitboard PEXT
-0.8us
-https://github.com/citrus610/puyo-core/tree/ea1872d27f609924c16094bd04c6f5b123f469d4 (open, need to edit benchmark code) 
-
-3nd partial search + dfs
-2.7us
-https://github.com/Riemann-rbrb/PuyoBenchmarkCPP/tree/7c0b711da30b3d0b8bed6c5114f62e8a8950e9ff (open)
-
-4th partial search + dfs
-14.8us
-https://github.com/boxqkrtm/tuyotuyo-puyoai-close (close)
-
-5th naive
-19.7us
-https://github.com/boxqkrtm/tuyotuyo-puyoai-open/tree/f6c6894ab044738cca7bbc30588ed2e561f28436 (open)
-```
+# Etc LeaderBoard for Unknown (closed source and no benchmark executable)
+1. SSE3 ([picture](https://twitter.com/waruo_t/status/1297516969210425344))<br>
+19083.968times/16ms<br>
