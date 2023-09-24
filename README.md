@@ -6,8 +6,6 @@
 14828.544949 times/16ms<br>
 2. [partial search + dfs](https://github.com/Riemann-rbrb/PuyoBenchmarkCPP/tree/7c0b711da30b3d0b8bed6c5114f62e8a8950e9ff)<br>
 6607.744 times/16ms<br>
-3. [tuyotuyo-rs, bitboard, pext off](https://github.com/boxqkrtm/tuyotuyo-rs/tree/5a1f4f9c65652982a2d70860dfc062fcc8195d0d](https://github.com/boxqkrtm/tuyotuyo-rs/tree/97c23a5eda754443aa7b02ab425af660599eefe9))<br>
-4077.0564 times/16ms<br>
 # Etc LeaderBoard for Unknown (closed source and no benchmark executable)
 1. [SSE3](https://twitter.com/waruo_t/status/1297516969210425344)<br>
 19083.968 times/16ms<br>
